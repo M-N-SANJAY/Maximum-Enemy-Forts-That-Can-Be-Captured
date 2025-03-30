@@ -15,3 +15,8 @@ def captureForts(self, forts):   #You should ignore the self parameter if you do
                   ans = max(ans, right-left-1)
               left = right
       return ans
+'''
+Time Complexity : O(n) 
+Space Complexity : O(1) 
+No extra space used.
+'''
